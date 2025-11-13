@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://choosemiracle.github.io</id>
+    <title>奇迹工坊</title>
+    <updated>2025-11-13T02:47:15.990Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://choosemiracle.github.io"/>
+    <link rel="self" href="https://choosemiracle.github.io/atom.xml"/>
+    <subtitle>将每一天都献给奇迹</subtitle>
+    <logo>https://choosemiracle.github.io/images/avatar.png</logo>
+    <icon>https://choosemiracle.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, 奇迹工坊</rights>
+    <entry>
+        <title type="html"><![CDATA[博客发布了]]></title>
+        <id>https://choosemiracle.github.io/post/hello/</id>
+        <link href="https://choosemiracle.github.io/post/hello/">
+        </link>
+        <updated>2025-11-13T00:55:50.000Z</updated>
+        <content type="html"><![CDATA[<p>这是我的第一篇博客。</p>
+<p>以前喜欢自己陶腾主机，在阿里云上租了台服务器，搭建过Wordpress和Wiki，写了不少文章和学习心得，也整理过不少资料。</p>
+<p>因疏于维护主机，懒于续费，不少服务器到期便回收了，煞费了许多宝贵资料。</p>
+<p>最近想写博客了，不愿走老路了，找到了Gridea写静态网页的绝佳方式。</p>
+<p>感觉非常不错，操作便利简单，上手忒快。</p>
+<p>也推荐给大家。</p>
+]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>关于 | 奇迹工坊</title>
+<meta name="description" content="将每一天都献给奇迹">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://choosemiracle.github.io/favicon.ico?v=1763002032145">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://choosemiracle.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://choosemiracle.github.io">
+        <img class="avatar" src="https://choosemiracle.github.io/images/avatar.png?v=1763002032145" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://choosemiracle.github.io">
+        <h1 class="site-title">奇迹工坊</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-01-25</span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>创造一方空间<br>
+经由音乐、诗歌、绘画、戏剧、电影等艺术载体<br>
+习于独处<br>
+听于无声<br>
+随顺本真<br>
+让身心归于圆融与自在</p>
+<figure data-type="image" tabindex="1"><img src="https://www.theburningplatform.com/wp-content/uploads/2024/12/adobestock-ripple-effect-consequences-metaphor-scaled-1.jpeg" alt="" loading="lazy"></figure>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>韦伟</p>
+<p><strong>使命</strong><br>
+愿作心之桥   助汝忆真我<br>
+点亮自性灯   光照三大千</p>
+<p><strong>价值观</strong><br>
+简单 Simplicity<br>
+真诚 Sincerity<br>
+服务 Service</p>
+<figure data-type="image" tabindex="2"><img src="https://img.reintech.io/variants/8rd5cgd4it57twwdqj38mp2i7rmv/e7b4ce09c703210ab8f75b017c7eaf0951c5a95b737ee8120602845c1c1d944b" alt="" loading="lazy"></figure>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<ul>
+<li>料理</li>
+<li>徒步</li>
+<li>打球</li>
+<li>观影</li>
+</ul>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<figure data-type="image" tabindex="3"><img src="https://choosemiracle.github.io/post-images/1763000602579.jpg" alt="" loading="lazy"></figure>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">将每一天都献给奇迹</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://choosemiracle.github.io/" target="_blank">奇迹工坊</a> | <a class="rss" href="https://choosemiracle.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
